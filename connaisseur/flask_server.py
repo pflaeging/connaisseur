@@ -39,6 +39,8 @@ def handle_alert_config_error(err):
         "Alerting configuration is not valid. Check the logs for more details!",
         500,
     )
+LOG_LEVEL = os.environ.get("LOG_LEVEL", "INFO")
+
 
 
 @APP.route("/mutate", methods=["POST"])
