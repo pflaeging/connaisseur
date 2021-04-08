@@ -6,6 +6,11 @@ FROM base as builder
 RUN mkdir /install
 WORKDIR /install
 COPY requirements.txt /requirements.txt
+
+
+# need libc-dev gcc and linux headers for building uwsgi #TODODODODODODO
+# need openssl-dev to build with https support
+RUN apk add gcc libc-dev linux-headers openssl-dev # TODO check what needed
 # Since we run inside an alpine based container, we cannot compile yarl and multidic
 RUN YARL_NO_EXTENSIONS=1 MULTIDICT_NO_EXTENSIONS=1 pip install --no-cache-dir --prefix=/install -r /requirements.txt
 
@@ -38,8 +43,7 @@ COPY --from=cosign_loader /go/cosign/cosign-linux-amd64 /app/cosign/cosign
 RUN chmod 111 /app/cosign/cosign
 COPY connaisseur /app/connaisseur
 
-USER 1000:2000
 
 LABEL maintainer="Philipp Belitz <philipp.belitz@securesystems.de>"
 
-CMD ["python", "-m", "connaisseur"]
+CMD ["uwsgi", "--wsgi-file", "connaisseur/flask_server.py", "--callable", "APP", "--master", "--processes", "2", "--threads", "1", "--https", "0.0.0.0:5000,/app/certs/tls.crt,/app/certs/tls.key", "--log-4xx", "--log-5xx", "--disable-logging"]

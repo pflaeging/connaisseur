@@ -25,6 +25,8 @@ Flask Server that admits the request send to the k8s cluster, validates it and
 sends its response back.
 """
 
+LOG_LEVEL = os.environ.get("LOG_LEVEL", "INFO")
+
 
 @APP.errorhandler(AlertSendingError)
 def handle_alert_sending_failure(err):
