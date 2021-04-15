@@ -1,0 +1,2128 @@
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 16:02:51 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 16:11:28 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 16:22:27 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 16:24:33 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 16:33:07 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Failed to deny unsigned image or failed with unexpected error. Output:
+Error from server: admission webhook "connaisseur-svc.connaisseur.svc" denied the request: unknown error. please check the logs.
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 16:40:09 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 16:54:13 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 17:03:36 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 17:09:44 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 17:15:34 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 17:28:15 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 17:40:37 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 17:46:13 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 17:51:16 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 18:03:35 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 18:16:49 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 18:19:44 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 18:33:28 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 18:42:26 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 18:44:58 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 19:00:27 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 19:06:52 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 19:18:55 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 19:28:14 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 19:33:52 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 19:40:22 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 19:49:32 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 20:05:13 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 20:10:52 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 20:19:54 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 20:32:24 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 20:34:55 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 20:44:13 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 20:53:26 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 21:05:41 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 21:11:43 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 21:27:23 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 21:33:25 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 21:39:03 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 21:54:35 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 22:00:06 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 22:12:44 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 22:22:05 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 22:31:12 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 22:34:07 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 22:43:04 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 22:58:43 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 23:07:44 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 23:16:53 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic --create-namespace --namespace connaisseur
+NAME: connaisseur
+LAST DEPLOYED: Fri Aug 13 23:19:35 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing edge case of tag defined in both targets and release json file...
+Connaisseur substituted correct image
+Testing signed image with designated signer...
+Successfully allowed usage of image signed by designated signer
+Testing image with missing designated signer...
+Successfully denied usage of image with missing designated signer
+Testing image with differing designated signers...
+Successfully denied usage of image with differing designated signers
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Testing deployment of valid init container along with a valid container...
+Successfully allowed valid image in init container and container
+Uninstalling Connaisseur...
+helm uninstall connaisseur -n connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test

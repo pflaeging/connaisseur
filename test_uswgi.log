@@ -1,0 +1,2261 @@
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+....................................................................++++
+...............++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Wed Apr 14 16:15:07 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Failed to deny unsigned image or failed with unexpected error. Output:
+Error from server (InternalError): Internal error occurred: failed calling webhook "connaisseur-svc.connaisseur.svc": Post "https://connaisseur-svc.connaisseur.svc:443/mutate?timeout=30s": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+................++++
+..............................................................................................................................................................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Wed Apr 14 16:16:36 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+..............................................................++++
+........................................................................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Wed Apr 14 16:18:45 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+......................................................................................++++
+..........................................................................................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Wed Apr 14 16:21:04 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+...............................................................................++++
+..++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Wed Apr 14 16:23:07 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+error: timed out waiting for the condition on namespaces/connaisseur
+make: *** [Makefile:31: uninstall] Error 1
+Failed to uninstall Connaisseur
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+.........++++
+.............................................................................................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Wed Apr 14 16:26:28 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+...............++++
+.++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Wed Apr 14 16:29:05 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+error: timed out waiting for the condition on namespaces/connaisseur
+make: *** [Makefile:31: uninstall] Error 1
+Failed to uninstall Connaisseur
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+.................++++
+......................................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Wed Apr 14 16:32:30 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+..............................................................................................................................................................................................................................................................................................................................................................................................................................................++++
+.....................................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Wed Apr 14 16:35:16 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+...........++++
+.........................................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Wed Apr 14 16:37:59 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+error: timed out waiting for the condition on namespaces/connaisseur
+make: *** [Makefile:31: uninstall] Error 1
+Failed to uninstall Connaisseur
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+...................................++++
+.................................................................................................................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Wed Apr 14 16:41:26 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+......................++++
+..........................................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Wed Apr 14 16:44:16 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+................++++
+........................................................................................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Wed Apr 14 16:46:19 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+..........................++++
+....................................................................................................................................................................................................................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Wed Apr 14 16:49:07 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+error: timed out waiting for the condition on namespaces/connaisseur
+make: *** [Makefile:31: uninstall] Error 1
+Failed to uninstall Connaisseur
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+......................................................................................................................................................................................................................................................++++
+................................................................................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Wed Apr 14 16:52:35 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+...........................................................................................++++
+...................................................................................................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Wed Apr 14 16:55:02 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+..++++
+...++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Wed Apr 14 16:58:00 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+error: timed out waiting for the condition on namespaces/connaisseur
+make: *** [Makefile:31: uninstall] Error 1
+Failed to uninstall Connaisseur
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+..................................................................................................................................................++++
+.....................................................................................................................................................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Wed Apr 14 17:01:29 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+...............................++++
+..........................................................................................................................................................................................................................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Wed Apr 14 17:04:14 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+error: timed out waiting for the condition on namespaces/connaisseur
+make: *** [Makefile:31: uninstall] Error 1
+Failed to uninstall Connaisseur
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+..++++
+............................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Wed Apr 14 17:07:35 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+............................................................................................++++
+.............++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Wed Apr 14 17:09:59 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Allowed an unsigned image via init container or failed due to an unexpected error handling init containers. Output:
+Error from server (InternalError): error when creating "connaisseur/tests/integration/valid_container_with_unsigned_init_container_image.yml": Internal error occurred: failed calling webhook "connaisseur-svc.connaisseur.svc": Post "https://connaisseur-svc.connaisseur.svc:443/mutate?timeout=30s": EOF
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+.....................................................................................................++++
+..................................................................................................................................................................................................................................................................................................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+Error: an error occurred while uninstalling the release. original install error: pods "connaisseur-bootstrap-sentinel" is forbidden: error looking up service account connaisseur/default: serviceaccount "default" not found: timed out waiting for the condition
+make: *** [Makefile:26: install] Error 1
+Failed to install Connaisseur
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+...........++++
+.................................................................................................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Thu Apr 15 10:49:06 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+.................++++
+........................................................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Thu Apr 15 10:51:01 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+......................................................................................................................++++
+.........................................................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Thu Apr 15 10:53:01 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+......................................................................................++++
+....................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Thu Apr 15 10:55:01 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+.......................................................................................++++
+................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Thu Apr 15 10:57:01 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+......................................................................................................................++++
+...................................................................................................................................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Thu Apr 15 10:59:04 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Failed to deny unsigned image or failed with unexpected error. Output:
+Error from server (InternalError): Internal error occurred: failed calling webhook "connaisseur-svc.connaisseur.svc": Post "https://connaisseur-svc.connaisseur.svc:443/mutate?timeout=30s": dial tcp 10.96.239.215:443: i/o timeout
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+..............................................................................................................................................................................................................++++
+..........................................................................................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Thu Apr 15 11:00:36 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+................................................................................................................................................++++
+.......................................................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Thu Apr 15 11:03:21 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+..............................................................................................................................................++++
+.............................................................................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Thu Apr 15 11:05:26 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+.......................++++
+..................................................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Thu Apr 15 11:08:10 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+............................................................................++++
+.........................................................................................................................................................................................................................................................................................................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Thu Apr 15 11:11:23 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Failed to deny unsigned image or failed with unexpected error. Output:
+Error from server (InternalError): Internal error occurred: failed calling webhook "connaisseur-svc.connaisseur.svc": Post "https://connaisseur-svc.connaisseur.svc:443/mutate?timeout=30s": context deadline exceeded
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+..................................++++
+.....................................................................................................................................................................................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Thu Apr 15 11:13:06 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+.....................................................++++
+.++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Thu Apr 15 11:15:02 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+..............................................................................................................................................................................................++++
+...................................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Thu Apr 15 11:18:03 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Failed to deny unsigned image or failed with unexpected error. Output:
+Error from server (InternalError): Internal error occurred: failed calling webhook "connaisseur-svc.connaisseur.svc": Post "https://connaisseur-svc.connaisseur.svc:443/mutate?timeout=30s": context deadline exceeded
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+...............................................................................................................................................++++
+...................................................................................................................................................................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Thu Apr 15 11:20:22 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+................................................................................++++
+.................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Thu Apr 15 11:23:05 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+...........................................................................................................................................................................................................++++
+.....................................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Thu Apr 15 11:25:15 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+error: timed out waiting for the condition on namespaces/connaisseur
+make: *** [Makefile:31: uninstall] Error 1
+Failed to uninstall Connaisseur
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+...................................++++
+...........................................................................................................................................................................................................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Thu Apr 15 11:28:44 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+..................................................................................................................................................................................................................................................................................................................................................................................................................................++++
+...................................................................................................................................................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Thu Apr 15 11:31:07 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+error: timed out waiting for the condition on namespaces/connaisseur
+make: *** [Makefile:31: uninstall] Error 1
+Failed to uninstall Connaisseur
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+......................................++++
+............................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Thu Apr 15 11:34:34 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+....++++
+....................................................................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Thu Apr 15 11:37:18 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+error: timed out waiting for the condition on namespaces/connaisseur
+make: *** [Makefile:31: uninstall] Error 1
+Failed to uninstall Connaisseur
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+..........................................................++++
+.....................................................................................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Thu Apr 15 11:40:40 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+............................................................++++
+......................................................................................................................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Thu Apr 15 11:43:23 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+......................................................................++++
+.........................................................................................................................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Thu Apr 15 11:45:24 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+..............++++
+...................................................................................................................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Thu Apr 15 11:48:26 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+.........................................................++++
+..........................................................................................................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Thu Apr 15 11:51:14 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+error: timed out waiting for the condition on namespaces/connaisseur
+make: *** [Makefile:31: uninstall] Error 1
+Failed to uninstall Connaisseur
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+.................................................................................................................................................................................................................................................................................................................................................................................................++++
+.................................................................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Thu Apr 15 11:54:45 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Failed to deny unsigned image or failed with unexpected error. Output:
+Error from server (InternalError): Internal error occurred: failed calling webhook "connaisseur-svc.connaisseur.svc": Post "https://connaisseur-svc.connaisseur.svc:443/mutate?timeout=30s": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
+Preparing Connaisseur config...
+Config set
+Installing Connaisseur...
+bash helm/certs/gen_certs.sh
+Generating RSA private key, 4096 bit long modulus (2 primes)
+.........................++++
+................................................................................................................................................................................................................................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = connaisseur-svc.connaisseur.svc
+Getting Private key
+kubectl create ns connaisseur || true
+namespace/connaisseur created
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+#
+#=============================================
+#
+# The installation may last up to 5 minutes.
+#
+#=============================================
+#
+helm install connaisseur helm --atomic
+NAME: connaisseur
+LAST DEPLOYED: Thu Apr 15 11:57:41 2021
+NAMESPACE: connaisseur
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+Successfully installed Connaisseur
+Testing unsigned image...
+Successfully denied usage of unsigned image
+Testing image signed under different key...
+Successfully denied usage of image signed under different key
+Testing signed image...
+Successfully allowed usage of signed image
+Testing deployment of unsigned init container along with a valid container...
+Successfully denied unsigned image in init container
+Uninstalling Connaisseur...
+kubectl config set-context --current --namespace connaisseur
+Context "kind-kind" modified.
+helm uninstall connaisseur
+release "connaisseur" uninstalled
+kubectl delete ns connaisseur --timeout=120s
+namespace "connaisseur" deleted
+Successfully uninstalled Connaisseur
+Passed integration test
