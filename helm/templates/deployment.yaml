@@ -39,7 +39,7 @@ spec:
               path: /ready
               port: 5000
               scheme: HTTPS
-            initialDelaySeconds: 30
+            initialDelaySeconds: 5
             periodSeconds: 5
           volumeMounts:
             - name: {{ .Chart.Name }}-certs
@@ -59,8 +59,6 @@ spec:
               mountPath: /app/connaisseur-config/config-secrets.yaml
               subPath: config-secrets.yaml
               readOnly: true
-            # - mountPath: /tmp
-            #   name: tmp
             {{ include "external-secrets-mount" . | nindent 12}}
           envFrom:
             - configMapRef:
@@ -115,5 +113,3 @@ spec:
           secret:
             secretName: {{ .Chart.Name }}-config-secrets
         {{ include "external-secrets-vol" . | nindent 8}}
-        # - emptyDir: {} # might be bad since uses node storage
-        #   name: tmp
